@@ -12,6 +12,5 @@ This project is **strictly for educational and ethical purposes**. Unauthorized 
 ## Installation
 ```bash
 git clone https://github.com/Riju-Rahaman/Keylogger-Research.git
-cd Keylogger-Research
-python install -r requirements.txt
-
+cd Keylogger
+python keylogger.py
